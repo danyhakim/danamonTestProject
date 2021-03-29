@@ -13,6 +13,11 @@
 		859609C126116F8700F1744E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859609BF26116F8700F1744E /* Main.storyboard */; };
 		859609C326116F8B00F1744E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859609C226116F8B00F1744E /* Assets.xcassets */; };
 		859609C626116F8B00F1744E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859609C426116F8B00F1744E /* LaunchScreen.storyboard */; };
+		859609CE2611752A00F1744E /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859609CD2611752A00F1744E /* loginViewController.swift */; };
+		859609D02611755C00F1744E /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859609CF2611755C00F1744E /* signUpViewController.swift */; };
+		859609D22611756F00F1744E /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859609D12611756F00F1744E /* homeViewController.swift */; };
+		859609D42611773F00F1744E /* adminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859609D32611773F00F1744E /* adminHomeViewController.swift */; };
+		859609D62611775500F1744E /* userHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859609D52611775500F1744E /* userHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		859609C226116F8B00F1744E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		859609C526116F8B00F1744E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		859609C726116F8B00F1744E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		859609CD2611752A00F1744E /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		859609CF2611755C00F1744E /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		859609D12611756F00F1744E /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		859609D32611773F00F1744E /* adminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adminHomeViewController.swift; sourceTree = "<group>"; };
+		859609D52611775500F1744E /* userHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				859609C226116F8B00F1744E /* Assets.xcassets */,
 				859609C426116F8B00F1744E /* LaunchScreen.storyboard */,
 				859609C726116F8B00F1744E /* Info.plist */,
+				859609CD2611752A00F1744E /* loginViewController.swift */,
+				859609CF2611755C00F1744E /* signUpViewController.swift */,
+				859609D12611756F00F1744E /* homeViewController.swift */,
+				859609D32611773F00F1744E /* adminHomeViewController.swift */,
+				859609D52611775500F1744E /* userHomeViewController.swift */,
 			);
 			path = danamonTestProject;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				859609D02611755C00F1744E /* signUpViewController.swift in Sources */,
+				859609D22611756F00F1744E /* homeViewController.swift in Sources */,
+				859609CE2611752A00F1744E /* loginViewController.swift in Sources */,
 				859609BE26116F8700F1744E /* ViewController.swift in Sources */,
 				859609BA26116F8700F1744E /* AppDelegate.swift in Sources */,
+				859609D42611773F00F1744E /* adminHomeViewController.swift in Sources */,
+				859609D62611775500F1744E /* userHomeViewController.swift in Sources */,
 				859609BC26116F8700F1744E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
